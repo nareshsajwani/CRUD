@@ -1,0 +1,19 @@
+1) Insert the document
+{ x : 3 , y : 4 }
+>> b,d,e
+2)What operations could cause an existing document to be moved on disk
+>> a,c,d,e
+3) Description: We have initialized documents in the user’s collection of the form:
+>> c
+4)  Description: We have initialized documents in the user’s collection, one of which is the following:
+>> e 
+5) Which of the following are user commands (as opposed to admin commands)? Check all that apply.
+>> a,b,c,f
+6) When running the command db.serverStatus() in the shell, what does the “ok” field represent?
+>> a 
+7)  If you’re looking for problems with database performance, what is a good place to look, when you run db.currentOp()?
+>> b
+8) db.collection.remove({}), which removes all messages in a collection, is it the same as db.collection.drop(), which drops the collection?
+>> b
+9) Which of these statements is true?
+>> b
